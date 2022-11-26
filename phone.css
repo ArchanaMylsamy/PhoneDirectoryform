@@ -1,0 +1,65 @@
+
+body{
+    background-image:url("https://j.gifs.com/58MXYZ.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+#heading{
+    color:white;
+    text-align:center;
+    font-size:50px;
+  }
+.login_form
+{
+   width: 500px;
+   height: 500px;
+   margin-top: 20px;
+   margin-left: 500px;
+   background:grey;
+   text-align: center;
+   border-radius: 25px;
+   opacity:0.8;
+}
+.logo{
+    border-radius:30px;
+    
+}
+@keyframes spin3D {
+    from { transform: rotateY(0deg) }
+    to { transform: rotateY(360deg) }
+  }
+.logo:hover{
+    animation-name:spin3D;
+    animation-duration: 3s;
+}
+.button{
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    background-color:white;
+    color: black;
+    cursor:grab;
+    
+}
+#email{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    outline:3px solid honeydew;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#password{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    outline:3px solid honeydew;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button.button:hover{
+    font-size: 20px;;
+    background-color: beige;
+    outline:3px solid wheat;
+}
